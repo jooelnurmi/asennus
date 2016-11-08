@@ -1,6 +1,6 @@
 class asennus {
 	package {"apache2":
-		content => "installed",
+		ensure  => "installed",
 		allowcdrom => "true",
 		}
 }
